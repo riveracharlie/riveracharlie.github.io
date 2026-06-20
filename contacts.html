@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Charlie Rivera</title>
+  <link rel="icon" type="image/png" href="assets/MACW.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <div class="container py-5">
+    <div class="row g-4 align-items-start">
+
+      <div class="col-12 col-lg-3">
+        <div class="left-card position-fixed"
+          style="box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;;">
+
+          <img src="assets/profile.jpg" alt="Charlie Rivera" class="profile-img" />
+
+
+          <p class="name">Charlie Rivera</p>
+          <span class="role-badge">Front-end Developer</span>
+
+          <!-- Contact Info -->
+          <p class="info-label">email</p>
+          <div class="info-value">charlierivera541@gmail.com</div>
+
+          <p class="info-label">contact no.</p>
+          <div class="info-value">0909-283-5487</div>
+
+          <p class="info-label">location</p>
+          <div class="info-value">Sto. Tomas City, Batangas, Philippines</div>
+
+          <div class="social-icons mt-4">
+            <a href="#"><i class="bi bi-github"></i></a>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-at"></i></a>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- RIGHT COLUMN -->
+      <div class="col-12 col-lg-9">
+        <div class="right-card p-4">
+
+          <!-- Nav -->
+          <div class="portfolio-nav">
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  active" href="#">Contacts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="resume.html">Resume</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Content Panel -->
+          <div class="content-panel">
+
+            <h2 class="section-title">Get in touch</h2>
+            <p class="about-text" style="margin-bottom: 20px;">
+              Have an opportunity or a project in mind? Feel free to reach out — I'd love to hear from you.
+            </p>
+
+            <div class="availability-tag">
+              <span class="availability-dot"></span>
+              Available for opportunities
+            </div>
+
+            <div class="row g-5 mt-1">
+
+              <!-- Contact -->
+              <div class="col-12 col-md-5">
+
+                <div class="contact-info-block">
+
+                  <div class="contact-row">
+                    <div class="contact-icon-box"><i class="bi bi-envelope"></i></div>
+                    <div>
+                      <p class="contact-row-label">Email address</p>
+                      <p class="contact-row-value">charlierivera541@gmail.com</p>
+                    </div>
+                  </div>
+
+                  <div class="contact-row">
+                    <div class="contact-icon-box"><i class="bi bi-telephone"></i></div>
+                    <div>
+                      <p class="contact-row-label">Phone</p>
+                      <p class="contact-row-value">0909-283-5487</p>
+                    </div>
+                  </div>
+
+                  <div class="contact-row">
+                    <div class="contact-icon-box"><i class="bi bi-geo-alt"></i></div>
+                    <div>
+                      <p class="contact-row-label">Location</p>
+                      <p class="contact-row-value">Sto. Tomas City, Batangas, Philippines</p>
+                    </div>
+                  </div>
+
+                  <div class="contact-row">
+                    <div class="contact-icon-box"><i class="bi bi-clock"></i></div>
+                    <div>
+                      <p class="contact-row-label">Response time</p>
+                      <p class="contact-row-value">Usually within 24 hours</p>
+                    </div>
+                  </div>
+
+                </div>
+
+                <hr class="divider" />
+
+                <p class="info-label" style="margin-bottom: 10px;">FIND ME ON</p>
+                <div class="social-pill-group">
+                  <a href="#" class="social-pill"><i class="bi bi-github"></i> GitHub</a>
+                  <a href="#" class="social-pill"><i class="bi bi-facebook"></i> Facebook</a>
+                  <a href="#" class="social-pill"><i class="bi bi-instagram"></i> Instagram</a>
+                </div>
+
+              </div>
+
+              <!-- Message form -->
+              <div class="col-12 col-md-7">
+
+                <div class="mb-3">
+                  <label class="contact-form-label">YOUR NAME</label>
+                  <input type="text" class="contact-input form-control" placeholder="Enter your name" />
+                </div>
+
+                <div class="mb-3">
+                  <label class="contact-form-label">EMAIL ADDRESS</label>
+                  <input type="email" class="contact-input form-control" placeholder="Email" />
+                </div>
+
+                <div class="mb-3">
+                  <label class="contact-form-label">SUBJECT</label>
+                  <select class="contact-input form-select">
+                    <option value="" disabled selected>Subject</option>
+                    <option>Job opportunity</option>
+                    <option>Freelance project</option>
+                    <option>Collaboration</option>
+                    <option>Just saying hello world</option>
+                  </select>
+                </div>
+
+                <div class="mb-3">
+                  <label class="contact-form-label">MESSAGE</label>
+                  <textarea class="contact-input contact-textarea form-control"
+                    placeholder="Tell me about your project or opportunity..."></textarea>
+                </div>
+
+                <button class="send-btn">
+                  <i class="bi bi-send"></i> Send message
+                </button>
+
+              </div>
+
+            </div>
+
+          </div><!-- end content-panel -->
+        </div><!-- end right-card -->
+      </div><!-- end col-9 -->
+
+    </div><!-- end row -->
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+  <nav class="floating-nav" id="floatingNav">
+    <a href="index.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a class="active" href="#">Contacts</a>
+    <a href="resume.html">Resume</a>
+  </nav>
+
+<script>
+  const floatingNav = document.getElementById('floatingNav');
+
+  const portfolioNav = document.querySelector('.portfolio-nav');
+
+  const observer = new IntersectionObserver(([entry]) => {
+    if (!entry.isIntersecting) {
+      floatingNav.classList.add('visible');
+    } else {
+      floatingNav.classList.remove('visible');
+    }
+  }, { threshold: 0 });
+
+  observer.observe(portfolioNav);
+    window.addEventListener('load', () => {
+    if (window.innerWidth < 992) {
+      const contentPanel = document.querySelector('.content-panel');
+      if (contentPanel) {
+        contentPanel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+  });
+</script>
+
+</body>
+
+</html>
